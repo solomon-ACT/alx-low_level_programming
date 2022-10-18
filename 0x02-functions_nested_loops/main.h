@@ -1,10 +1,7 @@
-#ifndef main
-#define main
+#ifndef MAIN_H
+#define MAIN_H
 
-//char _putchar(char c);
-int _putchar(char c)
-{
-		return (write(1, &c, 1));
-}
+char _putchar(char c);
+void print_alphabet(void);
 
-#endif /*Main_H */
+#endif /* MAIN_H */
